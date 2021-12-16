@@ -24,13 +24,7 @@ The code has been tested with GNU Fortran (Homebrew GCC 11.2.0), GNU Fortran (Ub
 
 ## Compile
 
-To compile using gfortran, run
-
-```Shell
-python evaluate_stereo.py --restore_ckpt models/raftstereo-middlebury.pth --dataset middlebury_H
-```
-
-To compile to use in Python;
+To compile to use in Python, run
 
 ```Shell
 f2py -m pot -c potential.f flegan.f
